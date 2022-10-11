@@ -119,7 +119,7 @@ class CityHall(Buro):
 
     @staticmethod
     def get_frame_url():
-        return 'https://www56.muenchen.de/termin/index.php?loc=BB'
+        return 'https://terminvereinbarung.muenchen.de/bba/termin/?loc=BB'
 
     @staticmethod
     def get_typical_appointments() -> list:
